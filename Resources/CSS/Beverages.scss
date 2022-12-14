@@ -1,0 +1,75 @@
+@import "../CSS/header.css";
+@import "./color";
+$unitSize: 1rem;
+
+/* LOGO CONTAINER BEGIN */
+.logoContainer {
+    display: flex;
+    background-color: $themeColorA;
+}
+
+.logoImg {
+    width: 27%;
+    height: 20vw;
+}
+
+.logoImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.menuTitle {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.menuTitle h1 {
+    font-size: 5*$unitSize;
+
+}
+
+/* LOGO CONTAINER END */
+/* ------------------------- */
+
+/* Menu Items BEGIN*/
+.mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: $themeColorA;
+}
+
+.menuItem {
+    width: 40vw;
+    margin-top: 30px;
+}
+
+.txtContainer {
+    text-align: center;
+}
+
+.txtContainer h1 {
+    font-size: 4*$unitSize;
+}
+
+.txtContainer h2 {
+    font-size: 3*$unitSize;
+}
+
+
+
+.imgContainer {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 60vw;
+}
+
+.imgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Menu Items END */

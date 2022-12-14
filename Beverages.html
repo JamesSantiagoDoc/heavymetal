@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        $.get("./header.html", function (data) {
+            $("#header-div").replaceWith(data);
+        });
+    </script>
+    <link rel="stylesheet" href="./Resources/CSS/Beverages.css">
+    <title>Beverages</title>
+</head>
+
+<body>
+
+    <!-- the imported header -->
+
+    <div id='header-div'></div>
+
+
+    <!-- Logo Container -->
+    <section class="logoContainer">
+        <div class="logoImg">
+            <img src="./Resources/Images/heavymetallogo.jpg" alt="">
+        </div>
+        <div class="menuTitle">
+            <h1>Beverages</h1>
+        </div>
+    </section>
+
+    <!-- Beverage Menu Items -->
+    <section class="mainContainer">
+        <div class="menuItem">
+            <div class="imgContainer">
+                <img src="./Resources/Images/softdrink.jpg" alt="">
+            </div>
+            <div class="txtContainer">
+                <h1>Non Alcoholic</h1>
+            </div>
+            <div class="txtContainer">
+                <a href="./Cocktails.html" class="button">ORDER</a>
+            </div>
+        </div>
+        <div class="menuItem">
+            <div class="imgContainer">
+                <a href="./Cocktails.html" target="_blank"><img src="./Resources/Images/shots.jpg" alt=""></a>
+            </div>
+            <div class="txtContainer">
+                <h1>Cocktails</h1>
+            </div>
+            <div class="txtContainer">
+                <a href="./Cocktails.html" class="button">ORDER</a>
+            </div>
+        </div>
+        <div class="menuItem">
+            <div class="imgContainer">
+                <img src="./Resources/Images/beer.webp" alt="">
+            </div>
+            <div class="txtContainer">
+                <h1>Beer</h1>
+            </div>
+            <div class="txtContainer">
+                <a href="./Cocktails.html" class="button">ORDER</a>
+            </div>
+        </div>
+        <div class="menuItem">
+            <div class="imgContainer">
+                <a href="" target="_blank"><img src="./Resources/Images/coffee.jpg" alt=""></a>
+            </div>
+            <div class="txtContainer">
+                <h1>Coffee</h1>
+            </div>
+            <div class="txtContainer">
+                <a href="./Cocktails.html" class="button">ORDER</a>
+            </div>
+        </div>
+        <!-- Beverage menu ends here -->
+</body>
+
+</html>

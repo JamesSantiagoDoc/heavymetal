@@ -1,0 +1,56 @@
+
+@import "./header.css";
+
+/* GRID CONTAINER DEFINING */
+.gridContainer{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 5px;
+}
+/* GRID CHILDREN */
+.gridChild{
+    background-color: #CEBBBB;
+}
+
+
+.gridChildB{
+    background-color: red;
+    color: white;
+}
+
+.gridChildC{
+    background-color: rgb(11, 159, 159);
+    color: white;
+}
+
+
+
+.greedy{
+    /* grid-column: span 2; */
+    grid-row: span 2;
+}
+
+.cent_grid{
+    /* position: relative; */
+    display: flex;
+    justify-content: center; 
+     align-items: center
+}
+
+.grid_with_flex_wrapper_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+
+.flex_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+

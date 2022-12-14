@@ -1,0 +1,116 @@
+/* TOP Header with Brand Photo BEGIN */
+.brandPhoto {
+    height: 40vw;
+    position: relative;
+}
+
+.brandPhoto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.brandTitle {
+    color: white;
+    position: absolute;
+    left: 30px;
+    bottom: 50%;
+    font-size: clamp(2em, 5vw, 4em);
+}
+
+h1 {
+    font-family: 'UnifrakturCook', cursive;
+}
+
+
+/* TOP Header with Brand Photo END */
+/* ------------------------- */
+
+/* LOGO CONTAINER BEGIN */
+.logoContainer {
+    display: flex;
+    background-color: #CEBBBB;
+}
+
+.logoImg {
+    width: 27%;
+    height: 20vw;
+}
+
+.logoImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.menuTitle {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.menuTitle h1 {
+    font-size: 5rem;
+
+}
+
+/* LOGO CONTAINER END */
+/* ------------------------- */
+
+/* Menu Items BEGIN*/
+.mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #CEBBBB;
+}
+
+.menuItem {
+    width: 40vw;
+    margin-top: 30px;
+}
+
+.txtContainer {
+    text-align: center;
+}
+
+.txtContainer h1 {
+    font-size: 4rem;
+}
+
+.txtContainer h2 {
+    font-size: 3rem;
+}
+
+
+
+.imgContainer {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 60vw;
+}
+
+
+a:link,
+a:visited {
+    background-color: #f44336;
+    font-size: large;
+    color: white;
+    padding: 14px 25px;
+    /* text-align: center;  */
+    /* text-decoration: none; */
+    /* display: inline-block; */
+}
+
+a:hover,
+a:active {
+    background-color: rgb(255, 0, 132);
+}
+
+.imgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Menu Items END */
